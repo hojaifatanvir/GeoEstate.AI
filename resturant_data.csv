@@ -1,0 +1,61 @@
+,Place Name,Place ID,Latitude,Longitude,rating,Types,Vicinity,Positive,Negative
+0,Green Garden Food Palace,ChIJEdW09bW3VTcRU1BxA-pgB7w,23.6908174,90.4571766,5.0,"['restaurant', 'food', 'point_of_interest', 'store', 'establishment']","1072, Dhaka",55,10
+1,Laa Eatery Restaurant,ChIJLQsEqn_BVTcRNS7U5hQ0ljE,23.763554,90.36263170000001,4.7,"['restaurant', 'food', 'point_of_interest', 'establishment']","15, 2 Tajmahal Rd, Dhaka",16,32
+2,Purbachal Skyline Restaurant & Party Centre,ChIJCwaTuIbLVTcRxQiOPGqtqTY,23.8494147,90.5343215,4.9,"['restaurant', 'food', 'point_of_interest', 'establishment']",Bangladesh,39,15
+3,Cactus Restaurant,ChIJFRjc9FK5VTcRZKgjPUUsOrk,23.7603776,90.4438556,4.5,"['restaurant', 'meal_takeaway', 'food', 'point_of_interest', 'store', 'establishment']","House 7 Rd 4, Dhaka",53,28
+4,New Somtam - Thai & Chinese Restaurant,ChIJAQAQZmC4VTcRg7XL3J7R-Jo,23.739919,90.4140278,3.9,"['restaurant', 'food', 'point_of_interest', 'establishment']","137 East Shantinagar, Dhaka",26,39
+5,Tomato Restaurant & Juice Bar,ChIJ43dmqoLHVTcROOS_l1WiOBA,23.833303,90.4381948,4.8,"['restaurant', 'food', 'point_of_interest', 'establishment']","Unnamed Road, Dhaka",42,9
+6,Delicious Restaurant,ChIJK3zPxGbBVTcRrO7PbnSZyDg,23.811873499999997,90.3674446,4.2,"['restaurant', 'food', 'point_of_interest', 'establishment']","House 1 Rd No. 7, Dhaka",19,23
+7,Jay's Kitchen Bakery & Restaurant,ChIJjenmpYrHVTcRXRo2P6qeBKU,23.7630895,90.4307664,4.1,"['restaurant', 'food', 'point_of_interest', 'establishment']",Dhaka,23,14
+8,Nobanno cafe & Restaurant,ChIJC5G-8hTJVTcRaNIZwMMgByo,23.8324491,90.48402320000001,4.6,"['restaurant', 'food', 'point_of_interest', 'establishment']","Plot 18, Road 203, Sector 1, Neela Market",14,35
+9,The Atrium Restaurant,ChIJS8DMxrHHVTcRr3Fl1Xug8qY,23.802477,90.4228988,4.0,"['restaurant', 'food', 'point_of_interest', 'establishment']","50 & 52, Pragati Avenue, J Block, Baridhara, Dhaka",52,42
+10,Royal Restaurant,ChIJ9yxQk964VTcRSfb1uLcqE3k,23.7195757,90.3905434,4.0,"['restaurant', 'food', 'point_of_interest', 'establishment']","44 Lalbagh Rd, Dhaka",5,6
+11,Green House Restaurant And Convention Hall,ChIJJZ8BwGa5VTcR-Xh3UMavzA4,23.736933999999998,90.38633,4.4,"['restaurant', 'food', 'point_of_interest', 'establishment']","Address: 25, Elephant Road (Beside Eastern Mollika Shopping Complex) Dhaka, Bangladesh",17,9
+12,Muslim Restaurant and Mini Chinese,ChIJPbG9xUTFVTcR0znDKvjMg_c,23.874037,90.3909541,4.0,"['restaurant', 'food', 'point_of_interest', 'establishment']","Gareeb-e-Nawaz Ave, Dhaka",44,19
+13,Cheez,ChIJXZR1hErHVTcRS_lmSt2zpnI,23.7927526,90.4081996,4.5,"['restaurant', 'food', 'point_of_interest', 'establishment']","2nd Floor, House 37 Road-12, Dhaka",58,29
+14,Kanary Restaurant,ChIJC3EQ4kzGVTcR80F-MrIN5IA,23.812208,90.4245041,4.0,"['restaurant', 'food', 'point_of_interest', 'establishment']","KA/4, Basundhara Road, Jagannathpur, Vatara, Dhaka",3,16
+15,Melting Pot,ChIJP6XUgau5VTcRp9hGf1BmH8M,23.737492899999996,90.3773007,4.0,"['restaurant', 'food', 'point_of_interest', 'establishment']","15 Rd No. 1, Dhaka",8,40
+16,Trouvaille,ChIJv4FE8iLEVTcRt3_K-OexKqk,23.855826,90.4035764,4.4,"['restaurant', 'food', 'point_of_interest', 'establishment']","House 2 Rd No: 2, উত্তরা",4,49
+17,Cheez,ChIJlTtvEFm_VTcRwnbUygHt4nU,23.744661899999997,90.37207690000001,4.4,"['restaurant', 'food', 'point_of_interest', 'establishment']","Rangs KB Square, 2nd Floor, 736 Satmasjid Road, Dhaka",11,48
+18,Cheez,ChIJL8ISGhjHVTcRlOJ18e3nKbo,23.8087324,90.4303598,4.5,"['restaurant', 'food', 'point_of_interest', 'establishment']",Dhaka,48,36
+19,Kiyoshi,ChIJoabc-ZzHVTcRXSpsqQu9vQI,23.777432,90.4157625,4.5,"['restaurant', 'food', 'point_of_interest', 'establishment']","House No. 24, 4/B Road No 2, Gulshan-1, Dhaka",15,38
+20,Takeout Banani,ChIJD-LJDhLHVTcRlRlxntfUiYg,23.7931073,90.4057487,4.4,"['restaurant', 'food', 'point_of_interest', 'establishment']","Tower, 1st Floor, Plot No. 35, Abedin, Road No 17 Kamal Ataturk Ave, Dhaka",50,3
+21,Boithok Khana,ChIJDTTSNVatVTcR0B01bk_AKMQ,23.5543065,90.5332788,4.7,"['restaurant', 'food', 'point_of_interest', 'establishment']","Ground Floor, Jahanara Plaza (LABAID diagnostic",13,13
+22,Pho 101,ChIJB18boerHVTcR8WlHnVhDYVc,23.792981,90.4181768,4.5,"['restaurant', 'food', 'point_of_interest', 'establishment']","Building 9 Rd 101, Dhaka",36,27
+23,Premium Sweets,ChIJRU4gR3y4VTcRIFfzM9fb-Sg,23.7249099,90.4219162,4.3,"['restaurant', 'cafe', 'food', 'point_of_interest', 'store', 'establishment']","7-8, CIC Tower (2nd Floor), Motijheel C/A, Dhaka",18,10
+24,Bella Italia,ChIJHznnMUy_VTcRB5hAFn0uZeY,23.7473956,90.3709002,4.2,"['restaurant', 'food', 'point_of_interest', 'establishment']","Dhanmondi ADC Empire Plaza, (1st Floor), Plot 91, Road 12/A, Satmasjid Road, Opposite Pizza Hut, Dhanmondi, Dhaka",37,25
+25,Water Garden Restaurant & Convention Hall,ChIJJWCnsSe5VTcRszKazLV4CPg,23.7199892,90.3869781,4.4,"['restaurant', 'food', 'point_of_interest', 'establishment']","50 Lalbagh Rd, Dhaka",29,4
+26,Nobabi Restaurant,ChIJ43ipGivrVTcR4_lKCIFgldw,23.8110655,90.2575265,4.8,"['restaurant', 'food', 'point_of_interest', 'establishment']","1347, Bangladesh",45,8
+27,café offside,ChIJJ13NBCLBVTcR2tijEeYz8bI,23.8121799,90.3638109,4.7,"['restaurant', 'food', 'point_of_interest', 'establishment']","House-13/14, Road-23, Block-D, Section-06, Mirpur Rd, Dhaka",28,43
+28,Chillox Banani,ChIJ_Rc9aQ7HVTcR-i4Txlb9c0U,23.7937987,90.4045948,4.4,"['restaurant', 'food', 'point_of_interest', 'establishment']",Dhaka,27,37
+29,Tony Roma's,ChIJ9d0FthHHVTcRwigQXnAC4ag,23.7956921,90.4164265,4.4,"['restaurant', 'food', 'point_of_interest', 'establishment']","1st Floor), Plot- 40, CONCORD BILKIS TOWER, 6 Madani Ave, Dhaka",43,20
+30,Smart Bamboo riverview restaurant,ChIJBT4Ism6_VTcRKQ9V2olOk0I,23.754839999999998,90.33374040000001,4.5,"['restaurant', 'food', 'point_of_interest', 'establishment']",Mohammadpur Chondima uddan revenue 2 road number 11,35,22
+31,New Xinjiang Restaurant,ChIJe_iKK3zGVTcRZuKbnamYkUQ,23.8516062,90.4150863,4.2,"['restaurant', 'food', 'point_of_interest', 'establishment']","249 Ashkona Medical Road, Dhaka",31,7
+32,Shororeetu Restaurant,ChIJCeQL6CbEVTcRXIQ61pJFp3M,23.8617768,90.3995465,4.1,"['restaurant', 'food', 'point_of_interest', 'establishment']","House No 7, 7th Floor, Road 2A, Jashimuddin Avenue, Sector 3, Dhaka",57,41
+33,Sultan's Dine,ChIJNwjmp8q4VTcRxVCb9Pb8fvQ,23.7389133,90.3754462,4.3,"['restaurant', 'food', 'point_of_interest', 'establishment']","Green Akshay Plaza 1st Floor Satmasjid Road 146/G (Old), 59 (New, Dhaka",34,1
+34,Takeout Dhanmondi,ChIJe9p3iMq4VTcR4b3FUda_-nk,23.7446503,90.3720677,4.3,"['restaurant', 'food', 'point_of_interest', 'establishment']","House No#736, Rangs KB Square Level - 3, Road No#9/A, Satmasjid Road, Dhaka",20,45
+35,Bukhara Restaurant,ChIJx3gDiQ7HVTcRYluz6bX9I5c,23.793590100000003,90.4056861,4.2,"['restaurant', 'food', 'point_of_interest', 'establishment']","17th Floor, Iqbal Center, 42 Kemal Ataturk Ave, Dhaka",7,24
+36,Fish & Co. Bangladesh,ChIJvaqLi3jHVTcR5nRngfrkdDc,23.7768449,90.41669959999999,4.2,"['restaurant', 'food', 'point_of_interest', 'establishment']","22 গুলশান বাড্ডা সংযোগ সড়ক Crystal Palace, Dhaka",46,26
+37,Takeout Uttara,ChIJIc0UXhbEVTcRwhDig1ANHQM,23.8741572,90.3915428,4.3,"['restaurant', 'food', 'point_of_interest', 'establishment']","17 Sonargaon Janapath, Dhaka",24,6
+38,Bird's Eye Roof Top Restaurant and Convention Hall,ChIJ1b4rLva4VTcRVWLz6B6234g,23.730491100000002,90.412155,4.2,"['restaurant', 'food', 'point_of_interest', 'establishment']","Baitul View Tower, H.No 56/1 19th floor, Dhaka",49,21
+39,"Thai Emerald, Dhaka.",ChIJ6ciFYCTEVTcRiwlEerkzFqc,23.866649,90.3995974,4.3,"['restaurant', 'food', 'point_of_interest', 'establishment']","House 54 Road-2, Dhaka",41,33
+40,The One Restaurant,ChIJc8OwVha3VTcRXA_rMHshLDU,23.693793,90.4758427,3.8,"['restaurant', 'food', 'point_of_interest', 'establishment']","Matuail new town, Dhaka",40,46
+41,Premium Sweets,ChIJ3dMJWpzHVTcRbGoUNm0dN9Y,23.777914199999998,90.4156703,4.3,"['restaurant', 'food', 'point_of_interest', 'store', 'establishment']","Green Square House No.1/B Road No.8 Apartmant No.B/1, Dhaka",38,17
+42,Adda Restaurant,ChIJyeXbB7e4VTcReegXCJ9vuIY,23.7418441,90.3824602,4.1,"['restaurant', 'food', 'point_of_interest', 'establishment']","House#8,Road#4, Dhaka",51,2
+43,"Mainland China, Dhaka.",ChIJ62avvybEVTcRXH2OW_XoElM,23.8625012,90.3995698,4.2,"['restaurant', 'food', 'point_of_interest', 'establishment']","Plot No 15, 14th Floor, Siaaam Tower, Service Rd, Dhaka",32,47
+44,Best Kitchen Restaurant,ChIJN0sAr1rHVTcRJYyzznLzC3Y,23.7838661,90.4375226,4.1,"['restaurant', 'food', 'point_of_interest', 'establishment']","Unnamed Road, Dhaka",33,3
+45,The Dining Lounge,ChIJaf3EFnC4VTcR2xMQF1tlHbA,23.7519025,90.42292900000001,4.0,"['restaurant', 'food', 'point_of_interest', 'establishment']","Shotodol Rose Heights, 373/B, Level 3, Shahid Baki Rd, Dhaka",59,1
+46,Shake Shack,ChIJHVGV1FO_VTcREKintmwM2z0,23.7538177,90.3702729,4.3,"['restaurant', 'food', 'point_of_interest', 'establishment']","5/4/A Road No.16, House 38/A, Behind The Oxford School, Dhanmondi, Dhaka",9,44
+47,Jolpai Restaurant & Party Center,ChIJ0UNt1o-4VTcRgHpe61eqhtc,23.7482201,90.4030249,4.0,"['restaurant', 'food', 'point_of_interest', 'establishment']","18, New Eskataon, Moghbazar Rd, Dhaka",22,5
+48,KPR Restaurant & Party Centre,ChIJ5fZaRq64VTcRS_OrttZuyMo,23.7526814,90.38119480000002,3.9,"['cafe', 'restaurant', 'food', 'point_of_interest', 'establishment']","Union Heights (Level 3), 55-2, Bir Uttam Quazi Nuruzzaman Sarak Beside of Square Hospital West, Panthapath, Dhaka",2,2
+49,Soi 71,ChIJdTJxi6nHVTcR4UBYjHRDCr4,23.793889800000002,90.4122009,4.1,"['restaurant', 'food', 'point_of_interest', 'establishment']","Level 1 Concord Baksh Tower, 11/A Kemal Ataturk Ave, Dhaka",30,4
+50,Absolute BBQ BD,ChIJFfu3c8q4VTcRzODWsYpw26k,23.7383215,90.3783849,4.3,"['restaurant', 'food', 'point_of_interest', 'establishment']","Ahmed and Kazi tower, Level 7, Road 2, 35 Dhanmondi R/A, Dhaka",12,7
+51,PERI PASTA,ChIJufUcP-fAVTcRJhFk69WpiD8,23.8033916,90.354748,4.0,"['restaurant', 'food', 'point_of_interest', 'store', 'establishment']","14 Road No.1, Dhaka",1,5
+52,The Premium Lounge,ChIJ11t6ijnBVTcRT4wrnD78x5E,23.8180991,90.365232,3.9,"['restaurant', 'food', 'point_of_interest', 'establishment']",Dhaka,10,34
+53,Eat & Enjoy,ChIJhwSVQGO4VTcRZOEH8rnCE-c,23.7503843,90.4163209,4.1,"['restaurant', 'food', 'point_of_interest', 'establishment']","Shahid Baki Rd, Dhaka",0,18
+54,Xindian Restaurant,ChIJ72b1xVG_VTcR6xXhoyCFUh8,23.751886600000002,90.3684812,4.0,"['restaurant', 'food', 'point_of_interest', 'establishment']","House No.55, 55/A (New), 273 (Old) Road No.: 16 (New), 27(Old, Dhaka",6,11
+55,Pizza Inn,ChIJjYDLqou4VTcRe_fRjBFnqBI,23.742013699999998,90.4102648,4.2,"['restaurant', 'food', 'point_of_interest', 'establishment']","2 New Baily Road Green Cozy Cottage, (4th Floor), Lift-4, Dhaka",56,31
+56,3 FOOD,ChIJ6YHXmNXHVTcRtKNOWmxdDW8,23.7967431,90.3876868,4.1,"['restaurant', 'food', 'point_of_interest', 'establishment']",Dhaka,47,30
+57,ALKADERIA Restaurant,ChIJ60CCIXm4VTcRycPCR1SYbd0,23.7592517,90.4184189,4.1,"['restaurant', 'food', 'point_of_interest', 'establishment']","2/3 East Rampura, DIT Rd, Dhaka",54,8
+58,Khushboo Restaurant,ChIJ0aelS5nHVTcR-KdDPPUdscM,23.781860100000003,90.41744990000001,4.1,"['restaurant', 'food', 'point_of_interest', 'establishment']","House no 60/B, Road No 131, 2nd Floor, Gulshan-1, Dhaka",25,12
+59,Hakka Dhaka,ChIJgQwY_4y4VTcROtog7BUmq2Y,23.742071,90.41031770000001,4.2,"['restaurant', 'food', 'point_of_interest', 'establishment']","2 Baily Rd, Dhaka",21,0

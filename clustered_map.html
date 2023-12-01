@@ -1,0 +1,1840 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script>L_PREFER_CANVAS=false; L_NO_TOUCH=false; L_DISABLE_3D=false;</script>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.4.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.4.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://rawcdn.githack.com/python-visualization/folium/master/folium/templates/leaflet.awesome.rotate.css"/>
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    
+    <meta name="viewport" content="width=device-width,
+        initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <style>#map_6272cb748e884738899392cfc74788db {
+        position: relative;
+        width: 100.0%;
+        height: 100.0%;
+        left: 0.0%;
+        top: 0.0%;
+        }
+    </style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet-search@2.9.7/dist/leaflet-search.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet-search@2.9.7/dist/leaflet-search.min.css"/>
+</head>
+<body>    
+    
+    <div class="folium-map" id="map_6272cb748e884738899392cfc74788db" ></div>
+</body>
+<script>    
+    
+    
+        var bounds = null;
+    
+
+    var map_6272cb748e884738899392cfc74788db = L.map(
+        'map_6272cb748e884738899392cfc74788db', {
+        center: [23.777176, 90.399452],
+        zoom: 12,
+        maxBounds: bounds,
+        layers: [],
+        worldCopyJump: false,
+        crs: L.CRS.EPSG3857,
+        zoomControl: true,
+        });
+
+
+    
+    var tile_layer_9a3f64704c6a4ec29fc9c7326e6f0936 = L.tileLayer(
+        'https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',
+        {
+        "attribution": null,
+        "detectRetina": false,
+        "maxNativeZoom": 18,
+        "maxZoom": 18,
+        "minZoom": 0,
+        "noWrap": false,
+        "opacity": 1,
+        "subdomains": "abc",
+        "tms": false
+}).addTo(map_6272cb748e884738899392cfc74788db);
+    
+            var circle_marker_e1f9979600864d9996a3d825d9e4a064 = L.circleMarker(
+                [23.6908174, 90.4571766],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#2adddd",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#2adddd",
+  "fillOpacity": 0.9,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_6272cb748e884738899392cfc74788db);
+            
+    
+        circle_marker_e1f9979600864d9996a3d825d9e4a064.bindTooltip(
+            `<div>`
+            + `5.0,Green Garden Food Palace- Cluster 2` + `</div>`,
+            {"sticky": true}
+        );
+        
+    
+            var circle_marker_2fbe81c03eee4a48909f4cc3944b9344 = L.circleMarker(
+                [23.763554, 90.3626317],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#8000ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#8000ff",
+  "fillOpacity": 0.9,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_6272cb748e884738899392cfc74788db);
+            
+    
+        circle_marker_2fbe81c03eee4a48909f4cc3944b9344.bindTooltip(
+            `<div>`
+            + `4.7,Laa Eatery Restaurant- Cluster 1` + `</div>`,
+            {"sticky": true}
+        );
+        
+    
+            var circle_marker_312cdd6aa94046598a902f4ff3084962 = L.circleMarker(
+                [23.8494147, 90.53432149999999],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#ff0000",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ff0000",
+  "fillOpacity": 0.9,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_6272cb748e884738899392cfc74788db);
+            
+    
+        circle_marker_312cdd6aa94046598a902f4ff3084962.bindTooltip(
+            `<div>`
+            + `4.9,Purbachal Skyline Restaurant & Party Centre- Cluster 0` + `</div>`,
+            {"sticky": true}
+        );
+        
+    
+            var circle_marker_f358b66220124458aeddd3029ec2e0db = L.circleMarker(
+                [23.7603776, 90.44385559999999],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#2adddd",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#2adddd",
+  "fillOpacity": 0.9,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_6272cb748e884738899392cfc74788db);
+            
+    
+        circle_marker_f358b66220124458aeddd3029ec2e0db.bindTooltip(
+            `<div>`
+            + `4.5,Cactus Restaurant- Cluster 2` + `</div>`,
+            {"sticky": true}
+        );
+        
+    
+            var circle_marker_dbdb4146e2ea4726b35f9f7b1f7287f5 = L.circleMarker(
+                [23.739919, 90.4140278],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#8000ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#8000ff",
+  "fillOpacity": 0.9,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_6272cb748e884738899392cfc74788db);
+            
+    
+        circle_marker_dbdb4146e2ea4726b35f9f7b1f7287f5.bindTooltip(
+            `<div>`
+            + `3.9,New Somtam - Thai & Chinese Restaurant- Cluster 1` + `</div>`,
+            {"sticky": true}
+        );
+        
+    
+            var circle_marker_9af9d200d4fc4730a9db6b003a945d0b = L.circleMarker(
+                [23.833303, 90.43819479999999],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#ff0000",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ff0000",
+  "fillOpacity": 0.9,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_6272cb748e884738899392cfc74788db);
+            
+    
+        circle_marker_9af9d200d4fc4730a9db6b003a945d0b.bindTooltip(
+            `<div>`
+            + `4.8,Tomato Restaurant & Juice Bar- Cluster 0` + `</div>`,
+            {"sticky": true}
+        );
+        
+    
+            var circle_marker_9bf70c9baab04d1fb37adf204e38c356 = L.circleMarker(
+                [23.8118735, 90.3674446],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#8000ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#8000ff",
+  "fillOpacity": 0.9,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_6272cb748e884738899392cfc74788db);
+            
+    
+        circle_marker_9bf70c9baab04d1fb37adf204e38c356.bindTooltip(
+            `<div>`
+            + `4.2,Delicious Restaurant- Cluster 1` + `</div>`,
+            {"sticky": true}
+        );
+        
+    
+            var circle_marker_72270ebac05f404f9d28422b87c662e8 = L.circleMarker(
+                [23.7630895, 90.43076640000001],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#8000ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#8000ff",
+  "fillOpacity": 0.9,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_6272cb748e884738899392cfc74788db);
+            
+    
+        circle_marker_72270ebac05f404f9d28422b87c662e8.bindTooltip(
+            `<div>`
+            + `4.1,Jay's Kitchen Bakery & Restaurant- Cluster 1` + `</div>`,
+            {"sticky": true}
+        );
+        
+    
+            var circle_marker_c225ae957a1a49b981946573cb3f7d39 = L.circleMarker(
+                [23.8324491, 90.4840232],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#8000ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#8000ff",
+  "fillOpacity": 0.9,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_6272cb748e884738899392cfc74788db);
+            
+    
+        circle_marker_c225ae957a1a49b981946573cb3f7d39.bindTooltip(
+            `<div>`
+            + `4.6,Nobanno cafe & Restaurant- Cluster 1` + `</div>`,
+            {"sticky": true}
+        );
+        
+    
+            var circle_marker_a1ff60a619ef49a29cc55d2783e13b4d = L.circleMarker(
+                [23.802477, 90.4228988],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#ff0000",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ff0000",
+  "fillOpacity": 0.9,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_6272cb748e884738899392cfc74788db);
+            
+    
+        circle_marker_a1ff60a619ef49a29cc55d2783e13b4d.bindTooltip(
+            `<div>`
+            + `4.0,The Atrium Restaurant- Cluster 0` + `</div>`,
+            {"sticky": true}
+        );
+        
+    
+            var circle_marker_f1095e9607b14765b3b94ac0f5cb4de0 = L.circleMarker(
+                [23.7195757, 90.3905434],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#8000ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#8000ff",
+  "fillOpacity": 0.9,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_6272cb748e884738899392cfc74788db);
+            
+    
+        circle_marker_f1095e9607b14765b3b94ac0f5cb4de0.bindTooltip(
+            `<div>`
+            + `4.0,Royal Restaurant- Cluster 1` + `</div>`,
+            {"sticky": true}
+        );
+        
+    
+            var circle_marker_dd0047884485470b9134c2c0b9cf81b3 = L.circleMarker(
+                [23.736934, 90.38633],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#8000ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#8000ff",
+  "fillOpacity": 0.9,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_6272cb748e884738899392cfc74788db);
+            
+    
+        circle_marker_dd0047884485470b9134c2c0b9cf81b3.bindTooltip(
+            `<div>`
+            + `4.4,Green House Restaurant And Convention Hall- Cluster 1` + `</div>`,
+            {"sticky": true}
+        );
+        
+    
+            var circle_marker_2abf4298cf2548e9b5b59f8e3c002d25 = L.circleMarker(
+                [23.874037, 90.3909541],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#ff0000",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ff0000",
+  "fillOpacity": 0.9,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_6272cb748e884738899392cfc74788db);
+            
+    
+        circle_marker_2abf4298cf2548e9b5b59f8e3c002d25.bindTooltip(
+            `<div>`
+            + `4.0,Muslim Restaurant and Mini Chinese- Cluster 0` + `</div>`,
+            {"sticky": true}
+        );
+        
+    
+            var circle_marker_0a742c43fabd4afbb72f274f3ad2faff = L.circleMarker(
+                [23.7927526, 90.40819959999999],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#2adddd",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#2adddd",
+  "fillOpacity": 0.9,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_6272cb748e884738899392cfc74788db);
+            
+    
+        circle_marker_0a742c43fabd4afbb72f274f3ad2faff.bindTooltip(
+            `<div>`
+            + `4.5,Cheez- Cluster 2` + `</div>`,
+            {"sticky": true}
+        );
+        
+    
+            var circle_marker_c782251f21064ed5a1f07371f55c9fff = L.circleMarker(
+                [23.812208, 90.4245041],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#8000ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#8000ff",
+  "fillOpacity": 0.9,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_6272cb748e884738899392cfc74788db);
+            
+    
+        circle_marker_c782251f21064ed5a1f07371f55c9fff.bindTooltip(
+            `<div>`
+            + `4.0,Kanary Restaurant- Cluster 1` + `</div>`,
+            {"sticky": true}
+        );
+        
+    
+            var circle_marker_889cbe4449b44cae89a6465fce3f7dab = L.circleMarker(
+                [23.7374929, 90.37730069999999],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#8000ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#8000ff",
+  "fillOpacity": 0.9,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_6272cb748e884738899392cfc74788db);
+            
+    
+        circle_marker_889cbe4449b44cae89a6465fce3f7dab.bindTooltip(
+            `<div>`
+            + `4.0,Melting Pot- Cluster 1` + `</div>`,
+            {"sticky": true}
+        );
+        
+    
+            var circle_marker_cadb541d43b740e09931a438d91ae51b = L.circleMarker(
+                [23.855826, 90.4035764],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#8000ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#8000ff",
+  "fillOpacity": 0.9,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_6272cb748e884738899392cfc74788db);
+            
+    
+        circle_marker_cadb541d43b740e09931a438d91ae51b.bindTooltip(
+            `<div>`
+            + `4.4,Trouvaille- Cluster 1` + `</div>`,
+            {"sticky": true}
+        );
+        
+    
+            var circle_marker_ca3b37a0083646b89d6aa9b2fff8c06a = L.circleMarker(
+                [23.7446619, 90.3720769],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#8000ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#8000ff",
+  "fillOpacity": 0.9,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_6272cb748e884738899392cfc74788db);
+            
+    
+        circle_marker_ca3b37a0083646b89d6aa9b2fff8c06a.bindTooltip(
+            `<div>`
+            + `4.4,Cheez- Cluster 1` + `</div>`,
+            {"sticky": true}
+        );
+        
+    
+            var circle_marker_ff85e7f357ef40c69789de9e2503e8b2 = L.circleMarker(
+                [23.8087324, 90.4303598],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#2adddd",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#2adddd",
+  "fillOpacity": 0.9,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_6272cb748e884738899392cfc74788db);
+            
+    
+        circle_marker_ff85e7f357ef40c69789de9e2503e8b2.bindTooltip(
+            `<div>`
+            + `4.5,Cheez- Cluster 2` + `</div>`,
+            {"sticky": true}
+        );
+        
+    
+            var circle_marker_7bb056ab318a4f6fb6cb60045210fdc5 = L.circleMarker(
+                [23.777432, 90.4157625],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#8000ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#8000ff",
+  "fillOpacity": 0.9,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_6272cb748e884738899392cfc74788db);
+            
+    
+        circle_marker_7bb056ab318a4f6fb6cb60045210fdc5.bindTooltip(
+            `<div>`
+            + `4.5,Kiyoshi- Cluster 1` + `</div>`,
+            {"sticky": true}
+        );
+        
+    
+            var circle_marker_9dfcede623a34e1ca39107773d8df2c7 = L.circleMarker(
+                [23.7931073, 90.4057487],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#ff0000",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ff0000",
+  "fillOpacity": 0.9,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_6272cb748e884738899392cfc74788db);
+            
+    
+        circle_marker_9dfcede623a34e1ca39107773d8df2c7.bindTooltip(
+            `<div>`
+            + `4.4,Takeout Banani- Cluster 0` + `</div>`,
+            {"sticky": true}
+        );
+        
+    
+            var circle_marker_8f67a719984e45039ac19b999d0ad727 = L.circleMarker(
+                [23.5543065, 90.53327879999999],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#8000ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#8000ff",
+  "fillOpacity": 0.9,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_6272cb748e884738899392cfc74788db);
+            
+    
+        circle_marker_8f67a719984e45039ac19b999d0ad727.bindTooltip(
+            `<div>`
+            + `4.7,Boithok Khana- Cluster 1` + `</div>`,
+            {"sticky": true}
+        );
+        
+    
+            var circle_marker_77a8509527f344efb2955f1f3ac38134 = L.circleMarker(
+                [23.792981, 90.4181768],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#ff0000",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ff0000",
+  "fillOpacity": 0.9,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_6272cb748e884738899392cfc74788db);
+            
+    
+        circle_marker_77a8509527f344efb2955f1f3ac38134.bindTooltip(
+            `<div>`
+            + `4.5,Pho 101- Cluster 0` + `</div>`,
+            {"sticky": true}
+        );
+        
+    
+            var circle_marker_5beea329f83d44fdb454782d0e453a6f = L.circleMarker(
+                [23.7249099, 90.4219162],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#8000ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#8000ff",
+  "fillOpacity": 0.9,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_6272cb748e884738899392cfc74788db);
+            
+    
+        circle_marker_5beea329f83d44fdb454782d0e453a6f.bindTooltip(
+            `<div>`
+            + `4.3,Premium Sweets- Cluster 1` + `</div>`,
+            {"sticky": true}
+        );
+        
+    
+            var circle_marker_05a5394467de48bd80490ce8e4e168ba = L.circleMarker(
+                [23.7473956, 90.3709002],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#2adddd",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#2adddd",
+  "fillOpacity": 0.9,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_6272cb748e884738899392cfc74788db);
+            
+    
+        circle_marker_05a5394467de48bd80490ce8e4e168ba.bindTooltip(
+            `<div>`
+            + `4.2,Bella Italia- Cluster 2` + `</div>`,
+            {"sticky": true}
+        );
+        
+    
+            var circle_marker_3ff3930420ca497c8d4901937ab5f5a7 = L.circleMarker(
+                [23.7199892, 90.3869781],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#ff0000",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ff0000",
+  "fillOpacity": 0.9,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_6272cb748e884738899392cfc74788db);
+            
+    
+        circle_marker_3ff3930420ca497c8d4901937ab5f5a7.bindTooltip(
+            `<div>`
+            + `4.4,Water Garden Restaurant & Convention Hall- Cluster 0` + `</div>`,
+            {"sticky": true}
+        );
+        
+    
+            var circle_marker_9ea214e26f24409aa9bb11e10025668f = L.circleMarker(
+                [23.8110655, 90.2575265],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#ff0000",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ff0000",
+  "fillOpacity": 0.9,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_6272cb748e884738899392cfc74788db);
+            
+    
+        circle_marker_9ea214e26f24409aa9bb11e10025668f.bindTooltip(
+            `<div>`
+            + `4.8,Nobabi Restaurant- Cluster 0` + `</div>`,
+            {"sticky": true}
+        );
+        
+    
+            var circle_marker_7451a18f8b9244e09d631541e2699a93 = L.circleMarker(
+                [23.8121799, 90.3638109],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#ff0000",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ff0000",
+  "fillOpacity": 0.9,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_6272cb748e884738899392cfc74788db);
+            
+    
+        circle_marker_7451a18f8b9244e09d631541e2699a93.bindTooltip(
+            `<div>`
+            + `4.7,café offside- Cluster 0` + `</div>`,
+            {"sticky": true}
+        );
+        
+    
+            var circle_marker_78877a7a1192454dad48046409d20001 = L.circleMarker(
+                [23.7937987, 90.4045948],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#8000ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#8000ff",
+  "fillOpacity": 0.9,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_6272cb748e884738899392cfc74788db);
+            
+    
+        circle_marker_78877a7a1192454dad48046409d20001.bindTooltip(
+            `<div>`
+            + `4.4,Chillox Banani- Cluster 1` + `</div>`,
+            {"sticky": true}
+        );
+        
+    
+            var circle_marker_7c039fd1a06c4518961c4a1208f51973 = L.circleMarker(
+                [23.7956921, 90.4164265],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#ff0000",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ff0000",
+  "fillOpacity": 0.9,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_6272cb748e884738899392cfc74788db);
+            
+    
+        circle_marker_7c039fd1a06c4518961c4a1208f51973.bindTooltip(
+            `<div>`
+            + `4.4,Tony Roma's- Cluster 0` + `</div>`,
+            {"sticky": true}
+        );
+        
+    
+            var circle_marker_80a64e771f3f4e368486c7866c282dec = L.circleMarker(
+                [23.75484, 90.3337404],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#ff0000",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ff0000",
+  "fillOpacity": 0.9,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_6272cb748e884738899392cfc74788db);
+            
+    
+        circle_marker_80a64e771f3f4e368486c7866c282dec.bindTooltip(
+            `<div>`
+            + `4.5,Smart Bamboo riverview restaurant- Cluster 0` + `</div>`,
+            {"sticky": true}
+        );
+        
+    
+            var circle_marker_02b54242ef37444abfddd8610d43350e = L.circleMarker(
+                [23.8516062, 90.4150863],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#ff0000",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ff0000",
+  "fillOpacity": 0.9,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_6272cb748e884738899392cfc74788db);
+            
+    
+        circle_marker_02b54242ef37444abfddd8610d43350e.bindTooltip(
+            `<div>`
+            + `4.2,New Xinjiang Restaurant- Cluster 0` + `</div>`,
+            {"sticky": true}
+        );
+        
+    
+            var circle_marker_36eab7096df54e9eae8f771844043f22 = L.circleMarker(
+                [23.8617768, 90.3995465],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#ff0000",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ff0000",
+  "fillOpacity": 0.9,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_6272cb748e884738899392cfc74788db);
+            
+    
+        circle_marker_36eab7096df54e9eae8f771844043f22.bindTooltip(
+            `<div>`
+            + `4.1,Shororeetu Restaurant- Cluster 0` + `</div>`,
+            {"sticky": true}
+        );
+        
+    
+            var circle_marker_772bb9c59bb04ee9b7d642135a340f5e = L.circleMarker(
+                [23.7389133, 90.3754462],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#ff0000",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ff0000",
+  "fillOpacity": 0.9,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_6272cb748e884738899392cfc74788db);
+            
+    
+        circle_marker_772bb9c59bb04ee9b7d642135a340f5e.bindTooltip(
+            `<div>`
+            + `4.3,Sultan's Dine- Cluster 0` + `</div>`,
+            {"sticky": true}
+        );
+        
+    
+            var circle_marker_75daa3d73ab44242b2460b8b9bc8169f = L.circleMarker(
+                [23.7446503, 90.3720677],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#8000ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#8000ff",
+  "fillOpacity": 0.9,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_6272cb748e884738899392cfc74788db);
+            
+    
+        circle_marker_75daa3d73ab44242b2460b8b9bc8169f.bindTooltip(
+            `<div>`
+            + `4.3,Takeout Dhanmondi- Cluster 1` + `</div>`,
+            {"sticky": true}
+        );
+        
+    
+            var circle_marker_936ad08308314086886f11d9c552aba0 = L.circleMarker(
+                [23.793590100000007, 90.4056861],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#8000ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#8000ff",
+  "fillOpacity": 0.9,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_6272cb748e884738899392cfc74788db);
+            
+    
+        circle_marker_936ad08308314086886f11d9c552aba0.bindTooltip(
+            `<div>`
+            + `4.2,Bukhara Restaurant- Cluster 1` + `</div>`,
+            {"sticky": true}
+        );
+        
+    
+            var circle_marker_9ff6766598e24f06bb0cf41d0a54e889 = L.circleMarker(
+                [23.7768449, 90.4166996],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#2adddd",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#2adddd",
+  "fillOpacity": 0.9,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_6272cb748e884738899392cfc74788db);
+            
+    
+        circle_marker_9ff6766598e24f06bb0cf41d0a54e889.bindTooltip(
+            `<div>`
+            + `4.2,Fish & Co. Bangladesh- Cluster 2` + `</div>`,
+            {"sticky": true}
+        );
+        
+    
+            var circle_marker_1e1a7211fb154e1382c2f6691b9192a3 = L.circleMarker(
+                [23.8741572, 90.3915428],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#ff0000",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ff0000",
+  "fillOpacity": 0.9,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_6272cb748e884738899392cfc74788db);
+            
+    
+        circle_marker_1e1a7211fb154e1382c2f6691b9192a3.bindTooltip(
+            `<div>`
+            + `4.3,Takeout Uttara- Cluster 0` + `</div>`,
+            {"sticky": true}
+        );
+        
+    
+            var circle_marker_060ad10c10b046b9a2a4d6b40e9d0d85 = L.circleMarker(
+                [23.7304911, 90.412155],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#2adddd",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#2adddd",
+  "fillOpacity": 0.9,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_6272cb748e884738899392cfc74788db);
+            
+    
+        circle_marker_060ad10c10b046b9a2a4d6b40e9d0d85.bindTooltip(
+            `<div>`
+            + `4.2,Bird's Eye Roof Top Restaurant and Convention Hall- Cluster 2` + `</div>`,
+            {"sticky": true}
+        );
+        
+    
+            var circle_marker_ed419c2e93264fa7bd776e1ad17edb79 = L.circleMarker(
+                [23.866649, 90.3995974],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#ff0000",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ff0000",
+  "fillOpacity": 0.9,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_6272cb748e884738899392cfc74788db);
+            
+    
+        circle_marker_ed419c2e93264fa7bd776e1ad17edb79.bindTooltip(
+            `<div>`
+            + `4.3,Thai Emerald, Dhaka.- Cluster 0` + `</div>`,
+            {"sticky": true}
+        );
+        
+    
+            var circle_marker_9c1aae58e3874d428ceece90b39e0b77 = L.circleMarker(
+                [23.693793, 90.4758427],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#ff0000",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ff0000",
+  "fillOpacity": 0.9,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_6272cb748e884738899392cfc74788db);
+            
+    
+        circle_marker_9c1aae58e3874d428ceece90b39e0b77.bindTooltip(
+            `<div>`
+            + `3.8,The One Restaurant- Cluster 0` + `</div>`,
+            {"sticky": true}
+        );
+        
+    
+            var circle_marker_8c172e1420e8417a92cd0bfe6a6215e3 = L.circleMarker(
+                [23.7779142, 90.4156703],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#ff0000",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ff0000",
+  "fillOpacity": 0.9,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_6272cb748e884738899392cfc74788db);
+            
+    
+        circle_marker_8c172e1420e8417a92cd0bfe6a6215e3.bindTooltip(
+            `<div>`
+            + `4.3,Premium Sweets- Cluster 0` + `</div>`,
+            {"sticky": true}
+        );
+        
+    
+            var circle_marker_47e52c04ff534f48ae43d21153ec28f4 = L.circleMarker(
+                [23.7418441, 90.38246020000001],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#2adddd",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#2adddd",
+  "fillOpacity": 0.9,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_6272cb748e884738899392cfc74788db);
+            
+    
+        circle_marker_47e52c04ff534f48ae43d21153ec28f4.bindTooltip(
+            `<div>`
+            + `4.1,Adda Restaurant- Cluster 2` + `</div>`,
+            {"sticky": true}
+        );
+        
+    
+            var circle_marker_bf66f330b0ab494e8a8f5dc42bd3b05e = L.circleMarker(
+                [23.8625012, 90.3995698],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#8000ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#8000ff",
+  "fillOpacity": 0.9,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_6272cb748e884738899392cfc74788db);
+            
+    
+        circle_marker_bf66f330b0ab494e8a8f5dc42bd3b05e.bindTooltip(
+            `<div>`
+            + `4.2,Mainland China, Dhaka.- Cluster 1` + `</div>`,
+            {"sticky": true}
+        );
+        
+    
+            var circle_marker_13e41267350e47b08848e8f6b059bdff = L.circleMarker(
+                [23.7838661, 90.4375226],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#2adddd",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#2adddd",
+  "fillOpacity": 0.9,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_6272cb748e884738899392cfc74788db);
+            
+    
+        circle_marker_13e41267350e47b08848e8f6b059bdff.bindTooltip(
+            `<div>`
+            + `4.1,Best Kitchen Restaurant- Cluster 2` + `</div>`,
+            {"sticky": true}
+        );
+        
+    
+            var circle_marker_ff6f09b937594388b1e94d423cf87aab = L.circleMarker(
+                [23.7519025, 90.422929],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#ff0000",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ff0000",
+  "fillOpacity": 0.9,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_6272cb748e884738899392cfc74788db);
+            
+    
+        circle_marker_ff6f09b937594388b1e94d423cf87aab.bindTooltip(
+            `<div>`
+            + `4.0,The Dining Lounge- Cluster 0` + `</div>`,
+            {"sticky": true}
+        );
+        
+    
+            var circle_marker_1c53c2c72dc34dcda54e889eab3f2030 = L.circleMarker(
+                [23.7538177, 90.3702729],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#8000ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#8000ff",
+  "fillOpacity": 0.9,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_6272cb748e884738899392cfc74788db);
+            
+    
+        circle_marker_1c53c2c72dc34dcda54e889eab3f2030.bindTooltip(
+            `<div>`
+            + `4.3,Shake Shack- Cluster 1` + `</div>`,
+            {"sticky": true}
+        );
+        
+    
+            var circle_marker_19c19d324ac14db587300153b3b3a39a = L.circleMarker(
+                [23.7482201, 90.4030249],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#8000ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#8000ff",
+  "fillOpacity": 0.9,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_6272cb748e884738899392cfc74788db);
+            
+    
+        circle_marker_19c19d324ac14db587300153b3b3a39a.bindTooltip(
+            `<div>`
+            + `4.0,Jolpai Restaurant & Party Center- Cluster 1` + `</div>`,
+            {"sticky": true}
+        );
+        
+    
+            var circle_marker_6cfb07d518be48daa4e817d33886978c = L.circleMarker(
+                [23.7526814, 90.38119480000002],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#8000ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#8000ff",
+  "fillOpacity": 0.9,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_6272cb748e884738899392cfc74788db);
+            
+    
+        circle_marker_6cfb07d518be48daa4e817d33886978c.bindTooltip(
+            `<div>`
+            + `3.9,KPR Restaurant & Party Centre- Cluster 1` + `</div>`,
+            {"sticky": true}
+        );
+        
+    
+            var circle_marker_db643a9c86354ec09d74c6fa15a2b81b = L.circleMarker(
+                [23.7938898, 90.4122009],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#ff0000",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ff0000",
+  "fillOpacity": 0.9,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_6272cb748e884738899392cfc74788db);
+            
+    
+        circle_marker_db643a9c86354ec09d74c6fa15a2b81b.bindTooltip(
+            `<div>`
+            + `4.1,Soi 71- Cluster 0` + `</div>`,
+            {"sticky": true}
+        );
+        
+    
+            var circle_marker_a4a09a68e57f4b59929bc3730bd91b54 = L.circleMarker(
+                [23.7383215, 90.3783849],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#8000ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#8000ff",
+  "fillOpacity": 0.9,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_6272cb748e884738899392cfc74788db);
+            
+    
+        circle_marker_a4a09a68e57f4b59929bc3730bd91b54.bindTooltip(
+            `<div>`
+            + `4.3,Absolute BBQ BD- Cluster 1` + `</div>`,
+            {"sticky": true}
+        );
+        
+    
+            var circle_marker_5c60e715cea5497b98b1fa9329e588a3 = L.circleMarker(
+                [23.8033916, 90.354748],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#8000ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#8000ff",
+  "fillOpacity": 0.9,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_6272cb748e884738899392cfc74788db);
+            
+    
+        circle_marker_5c60e715cea5497b98b1fa9329e588a3.bindTooltip(
+            `<div>`
+            + `4.0,PERI PASTA- Cluster 1` + `</div>`,
+            {"sticky": true}
+        );
+        
+    
+            var circle_marker_a46859473075479daf80c56a559d8590 = L.circleMarker(
+                [23.8180991, 90.36523199999999],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#8000ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#8000ff",
+  "fillOpacity": 0.9,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_6272cb748e884738899392cfc74788db);
+            
+    
+        circle_marker_a46859473075479daf80c56a559d8590.bindTooltip(
+            `<div>`
+            + `3.9,The Premium Lounge- Cluster 1` + `</div>`,
+            {"sticky": true}
+        );
+        
+    
+            var circle_marker_71174c04f37f40c88ab1731d8ad8d3e9 = L.circleMarker(
+                [23.7503843, 90.4163209],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#8000ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#8000ff",
+  "fillOpacity": 0.9,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_6272cb748e884738899392cfc74788db);
+            
+    
+        circle_marker_71174c04f37f40c88ab1731d8ad8d3e9.bindTooltip(
+            `<div>`
+            + `4.1,Eat & Enjoy- Cluster 1` + `</div>`,
+            {"sticky": true}
+        );
+        
+    
+            var circle_marker_f0fdd49d68004a79ac34489356558809 = L.circleMarker(
+                [23.7518866, 90.3684812],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#8000ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#8000ff",
+  "fillOpacity": 0.9,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_6272cb748e884738899392cfc74788db);
+            
+    
+        circle_marker_f0fdd49d68004a79ac34489356558809.bindTooltip(
+            `<div>`
+            + `4.0,Xindian Restaurant- Cluster 1` + `</div>`,
+            {"sticky": true}
+        );
+        
+    
+            var circle_marker_cd5a645bcb0f49c4b3a937ca01e9b9c0 = L.circleMarker(
+                [23.7420137, 90.4102648],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#ff0000",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ff0000",
+  "fillOpacity": 0.9,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_6272cb748e884738899392cfc74788db);
+            
+    
+        circle_marker_cd5a645bcb0f49c4b3a937ca01e9b9c0.bindTooltip(
+            `<div>`
+            + `4.2,Pizza Inn- Cluster 0` + `</div>`,
+            {"sticky": true}
+        );
+        
+    
+            var circle_marker_13f14109912349dd96e920037f2d66b7 = L.circleMarker(
+                [23.7967431, 90.3876868],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#2adddd",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#2adddd",
+  "fillOpacity": 0.9,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_6272cb748e884738899392cfc74788db);
+            
+    
+        circle_marker_13f14109912349dd96e920037f2d66b7.bindTooltip(
+            `<div>`
+            + `4.1,3 FOOD- Cluster 2` + `</div>`,
+            {"sticky": true}
+        );
+        
+    
+            var circle_marker_a823985302ad4b6ea5ab1d37a809f3bb = L.circleMarker(
+                [23.7592517, 90.4184189],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#2adddd",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#2adddd",
+  "fillOpacity": 0.9,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_6272cb748e884738899392cfc74788db);
+            
+    
+        circle_marker_a823985302ad4b6ea5ab1d37a809f3bb.bindTooltip(
+            `<div>`
+            + `4.1,ALKADERIA Restaurant- Cluster 2` + `</div>`,
+            {"sticky": true}
+        );
+        
+    
+            var circle_marker_4a9f69bb39ca4dc29da1730c4ef0817b = L.circleMarker(
+                [23.781860100000006, 90.4174499],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#8000ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#8000ff",
+  "fillOpacity": 0.9,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_6272cb748e884738899392cfc74788db);
+            
+    
+        circle_marker_4a9f69bb39ca4dc29da1730c4ef0817b.bindTooltip(
+            `<div>`
+            + `4.1,Khushboo Restaurant- Cluster 1` + `</div>`,
+            {"sticky": true}
+        );
+        
+    
+            var circle_marker_6a116ba8bfd4480eaff2ded21e134536 = L.circleMarker(
+                [23.742071, 90.4103177],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#8000ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#8000ff",
+  "fillOpacity": 0.9,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_6272cb748e884738899392cfc74788db);
+            
+    
+        circle_marker_6a116ba8bfd4480eaff2ded21e134536.bindTooltip(
+            `<div>`
+            + `4.2,Hakka Dhaka- Cluster 1` + `</div>`,
+            {"sticky": true}
+        );
+        
+    
+            var marker_cluster_f6194536fc014349a7c6d45b78465900searchControl = new L.Control.Search({
+                layer: marker_cluster_f6194536fc014349a7c6d45b78465900,
+                
+                collapsed: false,
+                textPlaceholder: 'Search',
+            
+                initial: false,
+                
+                zoom: 20,
+                
+                position:'topleft',
+                hideMarkerOnCollapse: true
+            
+                });
+                marker_cluster_f6194536fc014349a7c6d45b78465900searchControl.on('search:locationfound', function(e) {
+                    marker_cluster_f6194536fc014349a7c6d45b78465900.setStyle(function(feature){
+                        return feature.properties.style
+                    })
+                    
+                    e.layer.setStyle({"data": "{\"Place Name\":{\"0\":15,\"1\":24,\"2\":36,\"3\":9,\"4\":28,\"5\":51,\"6\":12,\"7\":18,\"8\":31,\"9\":47,\"10\":37,\"11\":16,\"12\":27,\"13\":10,\"14\":21,\"15\":26,\"16\":53,\"17\":10,\"18\":10,\"19\":23,\"20\":43,\"21\":7,\"22\":33,\"23\":35,\"24\":4,\"25\":54,\"26\":30,\"27\":56,\"28\":11,\"29\":52,\"30\":40,\"31\":29,\"32\":39,\"33\":42,\"34\":44,\"35\":8,\"36\":14,\"37\":45,\"38\":6,\"39\":46,\"40\":49,\"41\":35,\"42\":3,\"43\":25,\"44\":5,\"45\":48,\"46\":38,\"47\":19,\"48\":20,\"49\":41,\"50\":2,\"51\":32,\"52\":50,\"53\":13,\"54\":55,\"55\":34,\"56\":0,\"57\":1,\"58\":22,\"59\":17},\"Latitude\":{\"0\":23.6908174,\"1\":23.763554,\"2\":23.8494147,\"3\":23.7603776,\"4\":23.739919,\"5\":23.833303,\"6\":23.8118735,\"7\":23.7630895,\"8\":23.8324491,\"9\":23.802477,\"10\":23.7195757,\"11\":23.736934,\"12\":23.874037,\"13\":23.7927526,\"14\":23.812208,\"15\":23.7374929,\"16\":23.855826,\"17\":23.7446619,\"18\":23.8087324,\"19\":23.777432,\"20\":23.7931073,\"21\":23.5543065,\"22\":23.792981,\"23\":23.7249099,\"24\":23.7473956,\"25\":23.7199892,\"26\":23.8110655,\"27\":23.8121799,\"28\":23.7937987,\"29\":23.7956921,\"30\":23.75484,\"31\":23.8516062,\"32\":23.8617768,\"33\":23.7389133,\"34\":23.7446503,\"35\":23.7935901,\"36\":23.7768449,\"37\":23.8741572,\"38\":23.7304911,\"39\":23.866649,\"40\":23.693793,\"41\":23.7779142,\"42\":23.7418441,\"43\":23.8625012,\"44\":23.7838661,\"45\":23.7519025,\"46\":23.7538177,\"47\":23.7482201,\"48\":23.7526814,\"49\":23.7938898,\"50\":23.7383215,\"51\":23.8033916,\"52\":23.8180991,\"53\":23.7503843,\"54\":23.7518866,\"55\":23.7420137,\"56\":23.7967431,\"57\":23.7592517,\"58\":23.7818601,\"59\":23.742071},\"Longitude\":{\"0\":90.4571766,\"1\":90.3626317,\"2\":90.5343215,\"3\":90.4438556,\"4\":90.4140278,\"5\":90.4381948,\"6\":90.3674446,\"7\":90.4307664,\"8\":90.4840232,\"9\":90.4228988,\"10\":90.3905434,\"11\":90.38633,\"12\":90.3909541,\"13\":90.4081996,\"14\":90.4245041,\"15\":90.3773007,\"16\":90.4035764,\"17\":90.3720769,\"18\":90.4303598,\"19\":90.4157625,\"20\":90.4057487,\"21\":90.5332788,\"22\":90.4181768,\"23\":90.4219162,\"24\":90.3709002,\"25\":90.3869781,\"26\":90.2575265,\"27\":90.3638109,\"28\":90.4045948,\"29\":90.4164265,\"30\":90.3337404,\"31\":90.4150863,\"32\":90.3995465,\"33\":90.3754462,\"34\":90.3720677,\"35\":90.4056861,\"36\":90.4166996,\"37\":90.3915428,\"38\":90.412155,\"39\":90.3995974,\"40\":90.4758427,\"41\":90.4156703,\"42\":90.3824602,\"43\":90.3995698,\"44\":90.4375226,\"45\":90.422929,\"46\":90.3702729,\"47\":90.4030249,\"48\":90.3811948,\"49\":90.4122009,\"50\":90.3783849,\"51\":90.354748,\"52\":90.365232,\"53\":90.4163209,\"54\":90.3684812,\"55\":90.4102648,\"56\":90.3876868,\"57\":90.4184189,\"58\":90.4174499,\"59\":90.4103177},\"rating\":{\"0\":5.0,\"1\":4.7,\"2\":4.9,\"3\":4.5,\"4\":3.9,\"5\":4.8,\"6\":4.2,\"7\":4.1,\"8\":4.6,\"9\":4.0,\"10\":4.0,\"11\":4.4,\"12\":4.0,\"13\":4.5,\"14\":4.0,\"15\":4.0,\"16\":4.4,\"17\":4.4,\"18\":4.5,\"19\":4.5,\"20\":4.4,\"21\":4.7,\"22\":4.5,\"23\":4.3,\"24\":4.2,\"25\":4.4,\"26\":4.8,\"27\":4.7,\"28\":4.4,\"29\":4.4,\"30\":4.5,\"31\":4.2,\"32\":4.1,\"33\":4.3,\"34\":4.3,\"35\":4.2,\"36\":4.2,\"37\":4.3,\"38\":4.2,\"39\":4.3,\"40\":3.8,\"41\":4.3,\"42\":4.1,\"43\":4.2,\"44\":4.1,\"45\":4.0,\"46\":4.3,\"47\":4.0,\"48\":3.9,\"49\":4.1,\"50\":4.3,\"51\":4.0,\"52\":3.9,\"53\":4.1,\"54\":4.0,\"55\":4.2,\"56\":4.1,\"57\":4.1,\"58\":4.1,\"59\":4.2},\"Positive\":{\"0\":55,\"1\":16,\"2\":39,\"3\":53,\"4\":26,\"5\":42,\"6\":19,\"7\":23,\"8\":14,\"9\":52,\"10\":5,\"11\":17,\"12\":44,\"13\":58,\"14\":3,\"15\":8,\"16\":4,\"17\":11,\"18\":48,\"19\":15,\"20\":50,\"21\":13,\"22\":36,\"23\":18,\"24\":37,\"25\":29,\"26\":45,\"27\":28,\"28\":27,\"29\":43,\"30\":35,\"31\":31,\"32\":57,\"33\":34,\"34\":20,\"35\":7,\"36\":46,\"37\":24,\"38\":49,\"39\":41,\"40\":40,\"41\":38,\"42\":51,\"43\":32,\"44\":33,\"45\":59,\"46\":9,\"47\":22,\"48\":2,\"49\":30,\"50\":12,\"51\":1,\"52\":10,\"53\":0,\"54\":6,\"55\":56,\"56\":47,\"57\":54,\"58\":25,\"59\":21},\"Negative\":{\"0\":10,\"1\":32,\"2\":15,\"3\":28,\"4\":39,\"5\":9,\"6\":23,\"7\":14,\"8\":35,\"9\":42,\"10\":6,\"11\":9,\"12\":19,\"13\":29,\"14\":16,\"15\":40,\"16\":49,\"17\":48,\"18\":36,\"19\":38,\"20\":3,\"21\":13,\"22\":27,\"23\":10,\"24\":25,\"25\":4,\"26\":8,\"27\":43,\"28\":37,\"29\":20,\"30\":22,\"31\":7,\"32\":41,\"33\":1,\"34\":45,\"35\":24,\"36\":26,\"37\":6,\"38\":21,\"39\":33,\"40\":46,\"41\":17,\"42\":2,\"43\":47,\"44\":3,\"45\":1,\"46\":44,\"47\":5,\"48\":2,\"49\":4,\"50\":7,\"51\":5,\"52\":34,\"53\":18,\"54\":11,\"55\":31,\"56\":30,\"57\":8,\"58\":12,\"59\":0},\"Cluster\":{\"0\":2,\"1\":1,\"2\":0,\"3\":2,\"4\":1,\"5\":0,\"6\":1,\"7\":1,\"8\":1,\"9\":0,\"10\":1,\"11\":1,\"12\":0,\"13\":2,\"14\":1,\"15\":1,\"16\":1,\"17\":1,\"18\":2,\"19\":1,\"20\":0,\"21\":1,\"22\":0,\"23\":1,\"24\":2,\"25\":0,\"26\":0,\"27\":0,\"28\":1,\"29\":0,\"30\":0,\"31\":0,\"32\":0,\"33\":0,\"34\":1,\"35\":1,\"36\":2,\"37\":0,\"38\":2,\"39\":0,\"40\":0,\"41\":0,\"42\":2,\"43\":1,\"44\":2,\"45\":0,\"46\":1,\"47\":1,\"48\":1,\"49\":0,\"50\":1,\"51\":1,\"52\":1,\"53\":1,\"54\":1,\"55\":0,\"56\":2,\"57\":2,\"58\":1,\"59\":1}}"});
+                    
+                    if(e.layer._popup)
+                        e.layer.openPopup();
+                })
+                marker_cluster_f6194536fc014349a7c6d45b78465900searchControl.on('search:collapsed', function(e) {
+                        marker_cluster_f6194536fc014349a7c6d45b78465900.setStyle(function(feature){
+                            return feature.properties.style
+                    });
+                });
+            map_6272cb748e884738899392cfc74788db.addControl( marker_cluster_f6194536fc014349a7c6d45b78465900searchControl );
+
+        
+</script>
